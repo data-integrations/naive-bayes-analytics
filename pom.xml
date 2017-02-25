@@ -247,8 +247,7 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-
-  <build>
+<build>
     <pluginManagement>
       <plugins>
       </plugins>
