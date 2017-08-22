@@ -21,7 +21,7 @@
   <groupId>co.cask.hydrator</groupId>
   <artifactId>naive-bayes-analytics-plugin</artifactId>
   <modelVersion>4.0.0</modelVersion>
-  <version>1.0.1</version>
+  <version>1.1.0</version>
 
   <licenses>
     <license>
@@ -80,14 +80,14 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <cdap.version>4.1.1</cdap.version>
+    <cdap.version>4.3.0-SNAPSHOT</cdap.version>
     <hadoop.version>2.3.0</hadoop.version>
     <spark.version>1.6.1</spark.version>
     <junit.version>4.11</junit.version>
-    <hydrator.version>1.6.1</hydrator.version>
+    <hydrator.version>1.8.0-SNAPSHOT</hydrator.version>
     <widgets.dir>widgets</widgets.dir>
     <docs.dir>docs</docs.dir>
-    <app.parents>system:cdap-etl-batch[4.1.0,5.0.0-SNAPSHOT),system:cdap-data-pipeline[4.1.0,5.0.0-SNAPSHOT),system:cdap-data-streams[4.1.0,5.0.0-SNAPSHOT)</app.parents>
+    <app.parents>system:cdap-data-pipeline[4.3.0-SNAPSHOT,5.0.0-SNAPSHOT),system:cdap-data-streams[4.3.0-SNAPSHOT,5.0.0-SNAPSHOT)</app.parents>
     <!-- this is here because project.basedir evaluates to null in the script build step -->
     <main.basedir>${project.basedir}</main.basedir>
   </properties>
