@@ -14,10 +14,10 @@
  * the License.
  */
 
-package co.cask.hydrator.plugin.spark.test;
+package io.cdap.plugin.spark.test;
 
-import co.cask.cdap.api.data.format.StructuredRecord;
-import co.cask.cdap.api.data.schema.Schema;
+import io.cdap.cdap.api.data.format.StructuredRecord;
+import io.cdap.cdap.api.data.schema.Schema;
 
 import javax.annotation.Nullable;
 
