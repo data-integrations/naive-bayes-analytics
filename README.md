@@ -1,4 +1,4 @@
-# Naive Bayes Analytics
+# Naive Bayes Analytics -- Deprecated
 
 [![cm-available](https://cdap-users.herokuapp.com/assets/cm-available.svg)](https://docs.cask.co/cdap/current/en/integrations/cask-market.html)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
